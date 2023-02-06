@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/restaurant-spa/static/css/main.bf288f47.css",
+    "main.js": "/restaurant-spa/static/js/main.5e56c7b8.js",
+    "static/media/pizza.jpg": "/restaurant-spa/static/media/pizza.a1629b9712f00b2cf18f.jpg",
+    "static/media/ensalda.jpg": "/restaurant-spa/static/media/ensalda.af7fb7f07426acf1dff2.jpg",
+    "static/media/insta.png": "/restaurant-spa/static/media/insta.cf2d8d59d9842ae83b04.png",
+    "static/media/face.png": "/restaurant-spa/static/media/face.7918a94c7ed58d6e937e.png",
+    "index.html": "/restaurant-spa/index.html",
+    "main.bf288f47.css.map": "/restaurant-spa/static/css/main.bf288f47.css.map",
+    "main.5e56c7b8.js.map": "/restaurant-spa/static/js/main.5e56c7b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf288f47.css",
+    "static/js/main.5e56c7b8.js"
+  ]
+}
