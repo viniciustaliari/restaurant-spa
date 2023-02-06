@@ -1,0 +1,67 @@
+.first-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../../../public/img/ensalda.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+h1, h2, h3, p{
+    color: white;
+}
+
+h1{
+    margin-top: 70px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.second-section{
+    background-color: #3C3C3C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: 300px;
+}
+
+.second-section p{
+    margin-bottom: 50px;
+}
+
+.third-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('../../../public/img/pizza.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+.boton-blog{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.boton-blog:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}

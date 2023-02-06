@@ -1,0 +1,18 @@
+.insta,
+.face,
+.twitter {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.insta {
+  background-image: url("../../../public/img/insta.png");
+}
+
+.face {
+  background-image: url("../../../public/img/face.png");
+}
+
+.twitter {
+  background-image: url("../../../public/img/twitter.png");
+}

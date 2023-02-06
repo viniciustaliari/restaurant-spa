@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-reserva {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #868686;
+}
+
+.contenedor-reserva h2 {
+  margin-top: 60px;
+}
+
+input,
+select {
+  height: 40px;
+  margin-top: 10px;
+}
+
+label {
+  color: white;
+}
+
+.botonReservar {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+  background-color: #00638d;
+  color: white;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.botonReservar:hover {
+  background-color: #088ac2;
+}

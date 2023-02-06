@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { Footer } from "./Components/Footer";
+import { NavBar } from "./Components/NavBar";
+import { HomePage } from "./Components/HomePage";
+import { Reservar } from "./Components/Reservar";
+import { AppProvider } from "./appContext";
+import { ResumenReserva } from "./Components/ResumenReserva";
+import { CartaMenu } from "./Components/CartaMenu";
+import { CartaDetallada } from "./Components/CartaDetallada";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <AppProvider>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="reservar" element={<Reservar />} />
+            <Route path="reservar/resumen" element={<ResumenReserva />} />
+            <Route path="carta" element={<CartaMenu />} />
+            <Route path="carta/nuestraCarta" element={<CartaDetallada />} />
+          </Routes>
+        </AppProvider>
+      </HashRouter>
+      <Footer />
     </div>
   );
 }
