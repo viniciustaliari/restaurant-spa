@@ -21,6 +21,7 @@ function App() {
             <Route path="reservar/resumen" element={<ResumenReserva />} />
             <Route path="carta" element={<CartaMenu />} />
             <Route path="carta/nuestraCarta" element={<CartaDetallada />} />
+            <Route path='*' element={<p>Not found</p>}/>
           </Routes>
         </AppProvider>
       </HashRouter>
